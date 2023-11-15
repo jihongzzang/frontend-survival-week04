@@ -14,7 +14,7 @@ export default function useSelectedMenus() {
 
   const totalPrice = useMemo(
     () => addedMenus.reduce((acc, cur) => acc + (cur.price || 0), 0),
-    [addedMenus]
+    [addedMenus],
   );
 
   const handleAdd = (item: MenuItem) => {

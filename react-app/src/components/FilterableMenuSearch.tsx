@@ -19,6 +19,7 @@ export default function FilterableMenuSearch({
       <input
         type="text"
         id={htmlFor}
+        aria-label={htmlFor}
         placeholder={placeholder}
         value={searchText}
         onChange={handleChangeSearchText}
