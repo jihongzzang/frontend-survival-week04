@@ -44,6 +44,7 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^29.4.2",
     "jest-environment-jsdom": "^29.4.2",
+    "msw": "^2.0.6",
     "parcel": "^2.8.3",
     "playwright": "^1.30.0",
     "process": "^0.11.10",
@@ -53,6 +54,8 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "usehooks-ts": "^2.9.1"
+    "undici": "^5.27.2",
+    "usehooks-ts": "^2.9.1",
+    "whatwg-fetch": "^3.6.19"
   }
 }

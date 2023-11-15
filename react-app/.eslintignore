@@ -2,4 +2,5 @@
 /coverage/
 /dist/
 .parcel-cache
+jest.polyfills.js
 *.d.ts

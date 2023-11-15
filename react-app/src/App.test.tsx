@@ -1,9 +1,11 @@
-import { render } from '@testing-library/react';
+import { render, waitFor, screen } from '@testing-library/react';
 
 import App from './App';
 
-describe('App ', () => {
-  it('renders without crash', () => {
-    render(<App />);
+test('App ', async () => {
+  render(<App />);
+
+  await waitFor(() => {
+    screen.getByText('기본카레(9,000원)');
   });
 });
